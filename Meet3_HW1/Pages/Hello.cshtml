@@ -1,0 +1,9 @@
+﻿@page "{name}"
+@model Meet3_HW1.Pages.HelloModel
+@{
+    var email = RouteData.Values["name"];
+}
+
+
+<h1>Hello, @email!</h1>
+<h2>Thank you for subscribing!</h2>
